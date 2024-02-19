@@ -1,0 +1,21 @@
+.btn {
+    border-radius: 5px;
+    font-size: 17px;
+    display: inline-block;
+    transition: 0.3s all;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 8px;
+    &__primary {
+        background: red;
+        color: white;
+        border: 1px solid black;
+        &:hover {
+            background: pink;
+            color: black;
+            border: 1px solid black;
+        }
+    }
+}
